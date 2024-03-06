@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="3" parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="regression"> </include>
+		</run>
+	</groups>
+  <test thread-count="3" parallel="tests" name="Test">
+    <classes>
+      <class name="com.Test.ROSA.Practice"/>
+      <class name="com.Test.ROSA.Sample"/>
+      <class name="com.Test.ROSA.Demo1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
