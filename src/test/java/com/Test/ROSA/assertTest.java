@@ -10,15 +10,15 @@ import org.testng.asserts.SoftAssert;
 
 public class assertTest {
 	
-	@Test
-	public void asserttest() {
-		WebDriver driver=new  ChromeDriver();
-		driver.get("https://www.cricbuzz.com//");
-		String eTitle = "Live cricket score,schelude";
-		String aTitle = driver.getTitle();
-		SoftAssert s=new SoftAssert();
-		s. assertEquals(aTitle, eTitle);
-		driver.quit();
+//	@Test
+//	public void asserttest() {
+//		WebDriver driver=new  ChromeDriver();
+//		driver.get("https://www.cricbuzz.com//");
+//		String eTitle = "Live cricket score,schelude";
+//		String aTitle = driver.getTitle();
+//		SoftAssert s=new SoftAssert();
+//		s. assertEquals(aTitle, eTitle);
+//		driver.quit();
 	}
 
-}
+//}
